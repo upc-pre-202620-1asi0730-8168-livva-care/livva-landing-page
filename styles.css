@@ -809,3 +809,25 @@ body {
     background-color: #2563eb;
     color: #ffffff;
 }
+
+.legal-page {
+    padding: 120px 0 80px;
+}
+
+.legal-page .container {
+    max-width: 900px;
+}
+
+.legal-page h1 {
+    margin-bottom: 16px;
+}
+
+.legal-page h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.legal-page p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
