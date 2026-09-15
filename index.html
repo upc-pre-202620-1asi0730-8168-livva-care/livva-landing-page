@@ -1,77 +1,172 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Livva - La plataforma inteligente para tu seguro ideal</title>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Livva - Smart insurance made simple</title>
 
     <meta
             name="description"
-            content="Livva te permite comparar y gestionar alternativas de seguros vehiculares y de salud de forma simple, clara y digital."
+            content="Livva helps you compare and manage vehicle and health insurance options in a simple, clear and digital way."
     >
 
     <meta
             name="keywords"
-            content="seguros, seguro vehicular, seguro de salud, comparación de seguros, Livva"
+            content="insurance, vehicle insurance, health insurance, insurance comparison, Livva"
     >
 
-    <meta name="author" content="Livva Care">
+    <meta
+            name="author"
+            content="Livva Care"
+    >
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+    >
+
+    <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+    >
 
     <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="styles.css">
+    <link
+            rel="stylesheet"
+            href="styles.css"
+    >
 </head>
 
 <body>
 
+<!-- Header -->
+
 <header class="header">
+
     <div class="container navbar">
 
         <a
                 href="#inicio"
                 class="logo"
-                aria-label="Ir al inicio de Livva"
+                aria-label="Go to Livva home"
         >
             Livva<span>.</span>
         </a>
 
         <nav
                 class="nav-menu"
-                aria-label="Navegación principal"
+                aria-label="Main navigation"
         >
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Seguros</a></li>
-                <li><a href="#planes">Planes</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+
+                <li>
+                    <a
+                            href="#inicio"
+                            data-i18n="nav.home"
+                    >
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                            href="#servicios"
+                            data-i18n="nav.insurance"
+                    >
+                        Insurance
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                            href="#planes"
+                            data-i18n="nav.plans"
+                    >
+                        Plans
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                            href="#nosotros"
+                            data-i18n="nav.about"
+                    >
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                            href="#contacto"
+                            data-i18n="nav.contact"
+                    >
+                        Contact
+                    </a>
+                </li>
+
             </ul>
         </nav>
 
         <div class="nav-buttons">
+
+            <!-- Language selector -->
+
+            <div
+                    class="language-switcher"
+                    aria-label="Language selector"
+            >
+
+                <button
+                        id="lang-en"
+                        class="lang-btn active"
+                        type="button"
+                        aria-label="Change language to English"
+                >
+                    EN
+                </button>
+
+                <button
+                        id="lang-es"
+                        class="lang-btn"
+                        type="button"
+                        aria-label="Cambiar idioma a español"
+                >
+                    ES
+                </button>
+
+            </div>
+
             <a
                     href="#planes"
                     class="btn btn-outline"
+                    data-i18n="nav.login"
             >
-                Iniciar Sesión
+                Sign In
             </a>
 
             <a
                     href="#planes"
                     class="btn btn-primary"
+                    data-i18n="nav.start"
             >
-                Empezar Gratis
+                Get Started
             </a>
+
         </div>
 
     </div>
+
 </header>
 
 <main>
@@ -82,17 +177,18 @@
             id="inicio"
             class="hero"
     >
+
         <div class="container hero-container">
 
             <div class="hero-text">
-                <h1>
-                    Tu tranquilidad y la de tu familia en un solo lugar
+
+                <h1 data-i18n="hero.title">
+                    Your peace of mind and your family's in one place
                 </h1>
 
-                <p>
-                    Compara, cotiza y gestiona seguros vehiculares y de salud
-                    de forma simple, transparente y digital, encontrando
-                    alternativas adaptadas a tus necesidades.
+                <p data-i18n="hero.description">
+                    Compare, quote and manage vehicle and health insurance
+                    in a simple, transparent and digital way.
                 </p>
 
                 <div class="hero-cta">
@@ -100,33 +196,43 @@
                     <a
                             href="#planes"
                             class="btn btn-primary btn-large"
+                            data-i18n="hero.quote"
                     >
-                        Cotizar mi Seguro
+                        Get a Quote
                     </a>
 
                     <a
                             href="#servicios"
                             class="btn btn-secondary btn-large"
+                            data-i18n="hero.coverage"
                     >
-                        Ver Coberturas
+                        View Coverage
                     </a>
 
                 </div>
+
             </div>
 
             <div class="hero-image">
 
                 <div class="image-card">
-                    <h2>Protección 360°</h2>
-                    <p>
-                        Seguro Vehicular • Seguro de Salud
+
+                    <h2 data-i18n="hero.cardTitle">
+                        Smart Protection
+                    </h2>
+
+                    <p data-i18n="hero.cardDescription">
+                        Vehicle Insurance • Health Insurance
                     </p>
+
                 </div>
 
             </div>
 
         </div>
+
     </section>
+
 
     <!-- Services -->
 
@@ -134,29 +240,35 @@
             id="servicios"
             class="services"
     >
+
         <div class="container">
 
             <div class="section-heading">
 
-            <span class="section-label">
-                Nuestras soluciones
-            </span>
+                <span
+                        class="section-label"
+                        data-i18n="services.label"
+                >
+                    Our solutions
+                </span>
 
-                <h2>
-                    Encuentra la protección que necesitas
+                <h2 data-i18n="services.title">
+                    Find the protection you need
                 </h2>
 
-                <p>
-                    Compara alternativas de seguros vehiculares y de salud
-                    de forma clara y encuentra la opción que mejor se adapte
-                    a tus necesidades.
+                <p data-i18n="services.description">
+                    Compare vehicle and health insurance alternatives
+                    clearly and find the option that best fits your needs.
                 </p>
 
             </div>
 
             <div class="services-grid">
 
+                <!-- Vehicle Insurance -->
+
                 <article class="service-card">
+
                     <div
                             class="service-icon"
                             aria-hidden="true"
@@ -164,16 +276,23 @@
                         🚗
                     </div>
 
-                    <h3>Seguro Vehicular</h3>
+                    <h3 data-i18n="services.vehicleTitle">
+                        Vehicle Insurance
+                    </h3>
 
-                    <p>
-                        Compara alternativas de seguro vehicular para proteger
-                        tu automóvil frente a accidentes, robos y otros imprevistos,
-                        de acuerdo con tus necesidades y preferencias.
+                    <p data-i18n="services.vehicleDescription">
+                        Compare vehicle insurance alternatives to protect
+                        your car against accidents, theft and other unexpected
+                        events according to your needs and preferences.
                     </p>
+
                 </article>
 
+
+                <!-- Health Insurance -->
+
                 <article class="service-card">
+
                     <div
                             class="service-icon"
                             aria-hidden="true"
@@ -181,77 +300,103 @@
                         ❤️
                     </div>
 
-                    <h3>Seguro de Salud</h3>
+                    <h3 data-i18n="services.healthTitle">
+                        Health Insurance
+                    </h3>
 
-                    <p>
-                        Explora alternativas de seguro de salud que permitan
-                        proteger tu bienestar y el de tu familia, comparando
-                        opciones de manera clara y accesible.
+                    <p data-i18n="services.healthDescription">
+                        Explore health insurance alternatives designed
+                        to protect your well-being and your family's,
+                        comparing options clearly and easily.
                     </p>
+
                 </article>
 
             </div>
 
         </div>
+
     </section>
+
+
     <!-- Plans -->
 
     <section
             id="planes"
             class="plans"
     >
+
         <div class="container">
 
             <div class="section-heading">
 
-                <span class="section-label">
-                    Planes flexibles
+                <span
+                        class="section-label"
+                        data-i18n="plans.label"
+                >
+                    Flexible plans
                 </span>
 
-                <h2>
-                    Elige el plan que mejor se adapte a ti
+                <h2 data-i18n="plans.title">
+                    Choose the plan that fits you best
                 </h2>
 
-                <p>
-                    Compara beneficios y selecciona la opción
-                    que mejor se ajuste a tus necesidades
-                    de protección.
+                <p data-i18n="plans.description">
+                    Compare benefits and select the option that best
+                    fits your insurance management needs.
                 </p>
 
             </div>
 
+
+            <!-- Billing selector -->
+
             <div class="billing-toggle">
 
-                <span>Mensual</span>
+                <span data-i18n="plans.monthly">
+                    Monthly
+                </span>
 
                 <button
                         id="billingToggle"
                         class="toggle-button"
                         type="button"
-                        aria-label="Cambiar entre facturación mensual y anual"
+                        aria-label="Switch between monthly and yearly billing"
                         aria-pressed="false"
                 >
                     <span class="toggle-circle"></span>
                 </button>
 
-                <span>Anual</span>
+                <span data-i18n="plans.yearly">
+                    Yearly
+                </span>
 
             </div>
 
+
             <div class="plans-grid">
+
+                <!-- Basic Plan -->
 
                 <article class="plan-card">
 
-                    <h3>Plan Básico</h3>
+                    <h3 data-i18n="plans.basicTitle">
+                        Basic Plan
+                    </h3>
 
-                    <p class="plan-description">
-                        Ideal para quienes buscan comenzar
-                        a gestionar sus seguros de manera simple.
+                    <p
+                            class="plan-description"
+                            data-i18n="plans.basicDescription"
+                    >
+                        Ideal for users who want to start managing
+                        their insurance in a simple way.
                     </p>
 
                     <div class="plan-price">
 
-                        <span class="currency">S/</span>
+                        <span class="currency">
+                            S/
+                        </span>
 
                         <span
                                 class="price"
@@ -261,45 +406,75 @@
                             19
                         </span>
 
-                        <span class="period">
-                            / mes
+                        <span
+                                class="period"
+                                data-i18n="plans.monthPeriod"
+                        >
+                            / month
                         </span>
 
                     </div>
 
                     <ul class="plan-features">
-                        <li>Comparación de opciones de seguro</li>
-                        <li>Gestión básica de pólizas</li>
-                        <li>Acceso a información centralizada</li>
-                        <li>Soporte digital</li>
+
+                        <li data-i18n="plans.basicFeature1">
+                            Insurance option comparison
+                        </li>
+
+                        <li data-i18n="plans.basicFeature2">
+                            Basic policy management
+                        </li>
+
+                        <li data-i18n="plans.basicFeature3">
+                            Access to centralized information
+                        </li>
+
+                        <li data-i18n="plans.basicFeature4">
+                            Digital support
+                        </li>
+
                     </ul>
 
                     <a
                             href="#contacto"
                             class="btn btn-outline plan-button"
-                            aria-label="Elegir Plan Básico"
+                            aria-label="Choose Basic Plan"
+                            data-i18n="plans.choose"
                     >
-                        Elegir Plan
+                        Choose Plan
                     </a>
 
                 </article>
 
+
+                <!-- Pro Plan -->
+
                 <article class="plan-card featured">
 
-                    <span class="recommended-badge">
-                        Recomendado
+                    <span
+                            class="recommended-badge"
+                            data-i18n="plans.recommended"
+                    >
+                        Recommended
                     </span>
 
-                    <h3>Livva Pro</h3>
+                    <h3>
+                        Livva Pro
+                    </h3>
 
-                    <p class="plan-description">
-                        Para usuarios que buscan una experiencia
-                        más completa y personalizada.
+                    <p
+                            class="plan-description"
+                            data-i18n="plans.proDescription"
+                    >
+                        For users looking for a more complete
+                        and personalized experience.
                     </p>
 
                     <div class="plan-price">
 
-                        <span class="currency">S/</span>
+                        <span class="currency">
+                            S/
+                        </span>
 
                         <span
                                 class="price"
@@ -309,32 +484,52 @@
                             39
                         </span>
 
-                        <span class="period">
-                            / mes
+                        <span
+                                class="period"
+                                data-i18n="plans.monthPeriod"
+                        >
+                            / month
                         </span>
 
                     </div>
 
                     <ul class="plan-features">
-                        <li>Todos los beneficios del Plan Básico</li>
-                        <li>Seguimiento avanzado de pólizas</li>
-                        <li>Recomendaciones personalizadas</li>
-                        <li>Atención prioritaria</li>
+
+                        <li data-i18n="plans.proFeature1">
+                            All Basic Plan benefits
+                        </li>
+
+                        <li data-i18n="plans.proFeature2">
+                            Advanced policy tracking
+                        </li>
+
+                        <li data-i18n="plans.proFeature3">
+                            Personalized recommendations
+                        </li>
+
+                        <li data-i18n="plans.proFeature4">
+                            Priority support
+                        </li>
+
                     </ul>
 
                     <a
                             href="#contacto"
                             class="btn btn-primary plan-button"
-                            aria-label="Elegir Livva Pro"
+                            aria-label="Choose Livva Pro"
+                            data-i18n="plans.choose"
                     >
-                        Elegir Plan
+                        Choose Plan
                     </a>
 
                 </article>
 
             </div>
+
         </div>
+
     </section>
+
 
     <!-- About -->
 
@@ -342,77 +537,95 @@
             id="nosotros"
             class="about"
     >
+
         <div class="container about-container">
 
             <div class="about-content">
 
-                <span class="section-label">
-                    Sobre Livva
+                <span
+                        class="section-label"
+                        data-i18n="about.label"
+                >
+                    About Livva
                 </span>
 
-                <h2>
-                    Seguros más simples, claros y accesibles
+                <h2 data-i18n="about.title">
+                    Insurance made simpler, clearer and more accessible
                 </h2>
 
-                <p>
-                    Livva es una plataforma digital orientada a facilitar
-                    la búsqueda, comparación y gestión de alternativas de
-                    seguros vehiculares y de salud, ofreciendo información
-                    clara y centralizada para apoyar la toma de decisiones.
+                <p data-i18n="about.description1">
+                    Livva is a digital platform designed to simplify
+                    the search, comparison and management of vehicle
+                    and health insurance alternatives.
                 </p>
 
-                <p>
-                    Nuestra propuesta busca reducir la complejidad
-                    del proceso de elección de seguros y brindar
-                    una experiencia digital que permita tomar
-                    decisiones con mayor información y confianza.
+                <p data-i18n="about.description2">
+                    Our goal is to reduce the complexity of choosing
+                    insurance and provide a digital experience that
+                    helps users make more informed decisions.
                 </p>
 
                 <div class="about-features">
 
                     <div class="about-feature">
-                        <strong>Transparencia</strong>
-                        <span>
-                            Información clara para comparar alternativas.
+
+                        <strong data-i18n="about.transparency">
+                            Transparency
+                        </strong>
+
+                        <span data-i18n="about.transparencyDescription">
+                            Clear information to compare alternatives.
                         </span>
+
                     </div>
 
                     <div class="about-feature">
-                        <strong>Accesibilidad</strong>
-                        <span>
-                            Una experiencia digital fácil de comprender
-                            y utilizar.
+
+                        <strong data-i18n="about.accessibility">
+                            Accessibility
+                        </strong>
+
+                        <span data-i18n="about.accessibilityDescription">
+                            A digital experience that is easy to understand and use.
                         </span>
+
                     </div>
 
                     <div class="about-feature">
-                        <strong>Confianza</strong>
-                        <span>
-                            Orientación para elegir opciones acordes
-                            a cada necesidad.
+
+                        <strong data-i18n="about.trust">
+                            Trust
+                        </strong>
+
+                        <span data-i18n="about.trustDescription">
+                            Guidance to choose options according to each user's needs.
                         </span>
+
                     </div>
 
                 </div>
 
             </div>
 
+
             <div class="about-card">
 
-                <h3>
-                    Una experiencia centrada en el usuario
+                <h3 data-i18n="about.cardTitle">
+                    A user-centered experience
                 </h3>
 
-                <p>
-                    Livva reúne herramientas para consultar alternativas,
-                    organizar información y acompañar al usuario durante
-                    la gestión de sus seguros.
+                <p data-i18n="about.cardDescription">
+                    Livva brings together tools to compare alternatives,
+                    organize information and support users throughout
+                    their insurance management process.
                 </p>
 
             </div>
 
         </div>
+
     </section>
+
 
     <!-- Contact -->
 
@@ -420,53 +633,68 @@
             id="contacto"
             class="contact"
     >
+
         <div class="container contact-container">
 
             <div class="contact-info">
 
-                <span class="section-label">
-                    Contacto
+                <span
+                        class="section-label"
+                        data-i18n="contact.label"
+                >
+                    Contact
                 </span>
 
-                <h2>
-                    ¿Tienes alguna consulta?
+                <h2 data-i18n="contact.title">
+                    Do you have any questions?
                 </h2>
 
-                <p>
-                    Envíanos un mensaje y cuéntanos cómo podemos ayudarte.
-                    Nuestro equipo se pondrá en contacto contigo.
+                <p data-i18n="contact.description">
+                    Send us a message and tell us how we can help.
+                    Our team will get in touch with you.
                 </p>
 
                 <div class="contact-details">
 
                     <p>
-                        <strong>Email:</strong>
+                        <strong data-i18n="contact.email">
+                            Email:
+                        </strong>
+
                         contacto@livva.com
                     </p>
 
                     <p>
-                        <strong>Horario:</strong>
-                        Lunes a viernes,
-                        9:00 a.m. - 6:00 p.m.
+                        <strong data-i18n="contact.schedule">
+                            Business hours:
+                        </strong>
+
+                        <span data-i18n="contact.scheduleValue">
+                            Monday to Friday, 9:00 a.m. - 6:00 p.m.
+                        </span>
                     </p>
 
                 </div>
 
             </div>
 
+
             <form class="contact-form">
 
                 <div class="form-group">
 
-                    <label for="name">
-                        Nombre
+                    <label
+                            for="name"
+                            data-i18n="contact.name"
+                    >
+                        Name
                     </label>
 
                     <input
                             type="text"
                             id="name"
                             name="name"
-                            placeholder="Ingresa tu nombre"
+                            placeholder="Enter your name"
                             autocomplete="name"
                             required
                     >
@@ -475,15 +703,18 @@
 
                 <div class="form-group">
 
-                    <label for="email">
-                        Correo electrónico
+                    <label
+                            for="email"
+                            data-i18n="contact.emailLabel"
+                    >
+                        Email address
                     </label>
 
                     <input
                             type="email"
                             id="email"
                             name="email"
-                            placeholder="nombre@correo.com"
+                            placeholder="name@email.com"
                             autocomplete="email"
                             required
                     >
@@ -492,15 +723,18 @@
 
                 <div class="form-group">
 
-                    <label for="message">
-                        Mensaje
+                    <label
+                            for="message"
+                            data-i18n="contact.message"
+                    >
+                        Message
                     </label>
 
                     <textarea
                             id="message"
                             name="message"
                             rows="5"
-                            placeholder="Escribe tu consulta"
+                            placeholder="Write your message"
                             required
                     ></textarea>
 
@@ -509,16 +743,21 @@
                 <button
                         type="submit"
                         class="btn btn-primary"
+                        data-i18n="contact.send"
                 >
-                    Enviar mensaje
+                    Send Message
                 </button>
 
             </form>
 
         </div>
+
     </section>
 
 </main>
+
+
+<!-- Footer -->
 
 <footer class="footer">
 
@@ -529,57 +768,98 @@
             <a
                     href="#inicio"
                     class="logo footer-logo"
-                    aria-label="Ir al inicio de Livva"
+                    aria-label="Go to Livva home"
             >
                 Livva<span>.</span>
             </a>
 
-            <p>
-                Una forma más simple de conocer,
-                comparar y gestionar alternativas de seguro.
+            <p data-i18n="footer.description">
+                A simpler way to discover, compare and manage
+                insurance alternatives.
             </p>
 
         </div>
 
+
         <div class="footer-links">
 
-            <h3>Plataforma</h3>
+            <h3 data-i18n="footer.platform">
+                Platform
+            </h3>
 
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Seguros</a>
-            <a href="#planes">Planes</a>
-            <a href="#nosotros">Nosotros</a>
+            <a
+                    href="#inicio"
+                    data-i18n="nav.home"
+            >
+                Home
+            </a>
+
+            <a
+                    href="#servicios"
+                    data-i18n="nav.insurance"
+            >
+                Insurance
+            </a>
+
+            <a
+                    href="#planes"
+                    data-i18n="nav.plans"
+            >
+                Plans
+            </a>
+
+            <a
+                    href="#nosotros"
+                    data-i18n="nav.about"
+            >
+                About
+            </a>
 
         </div>
 
+
         <div class="footer-links">
 
-            <h3>Legal</h3>
+            <h3 data-i18n="footer.legal">
+                Legal
+            </h3>
 
-            <a href="#">
-                Términos y condiciones
+            <a
+                    href="#"
+                    data-i18n="footer.terms"
+            >
+                Terms & Conditions
             </a>
 
-            <a href="#">
-                Política de privacidad
+            <a
+                    href="#"
+                    data-i18n="footer.privacy"
+            >
+                Privacy Policy
             </a>
 
         </div>
 
     </div>
 
+
     <div class="footer-bottom">
+
         <div class="container">
-            <p>
-                &copy; 2026 Livva.
-                Todos los derechos reservados.
+
+            <p data-i18n="footer.copyright">
+                &copy; 2026 Livva. All rights reserved.
             </p>
+
         </div>
+
     </div>
 
 </footer>
 
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
