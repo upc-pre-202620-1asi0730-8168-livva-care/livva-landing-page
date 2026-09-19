@@ -786,3 +786,27 @@ body {
         margin-right: auto;
     }
 }
+
+.language-switcher {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.lang-btn {
+    padding: 6px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #475569;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.lang-btn.active {
+    border-color: #2563eb;
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
