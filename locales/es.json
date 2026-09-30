@@ -1,0 +1,87 @@
+﻿{
+  "nav": {
+    "home": "Inicio",
+    "insurance": "Seguros",
+    "plans": "Planes",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "start": "Empezar"
+  },
+  "hero": {
+    "title": "Tu tranquilidad y la de tu familia en un solo lugar",
+    "description": "Compara, cotiza y gestiona seguros vehiculares y de salud de forma simple, transparente y digital.",
+    "quote": "Cotizar seguro",
+    "coverage": "Ver coberturas",
+    "cardTitle": "Protección inteligente",
+    "cardDescription": "Seguro vehicular • Seguro de salud"
+  },
+  "services": {
+    "label": "Nuestras soluciones",
+    "title": "Encuentra la protección que necesitas",
+    "description": "Compara alternativas de seguros vehiculares y de salud de manera clara y encuentra la opción que mejor se adapte a tus necesidades.",
+    "vehicleTitle": "Seguro vehicular",
+    "vehicleDescription": "Compara alternativas de seguros vehiculares para proteger tu auto frente a accidentes, robos y otros imprevistos de acuerdo con tus necesidades y preferencias.",
+    "healthTitle": "Seguro de salud",
+    "healthDescription": "Explora alternativas de seguros de salud diseñadas para proteger tu bienestar y el de tu familia, comparando opciones de manera clara y sencilla."
+  },
+  "plans": {
+    "label": "Planes flexibles",
+    "title": "Elige el plan que mejor se adapta a ti",
+    "description": "Compara beneficios y selecciona la opción que mejor se adapte a tus necesidades de gestión de seguros.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "basicTitle": "Plan Básico",
+    "basicDescription": "Ideal para usuarios que desean comenzar a gestionar sus seguros de manera sencilla.",
+    "monthPeriod": "/ mes",
+    "yearPeriod": "/ año",
+    "basicFeature1": "Comparación de opciones de seguros",
+    "basicFeature2": "Gestión básica de pólizas",
+    "basicFeature3": "Acceso a información centralizada",
+    "basicFeature4": "Soporte digital",
+    "choose": "Elegir plan",
+    "recommended": "Recomendado",
+    "proDescription": "Para usuarios que buscan una experiencia más completa y personalizada.",
+    "proFeature1": "Todos los beneficios del Plan Básico",
+    "proFeature2": "Seguimiento avanzado de pólizas",
+    "proFeature3": "Recomendaciones personalizadas",
+    "proFeature4": "Soporte prioritario"
+  },
+  "about": {
+    "label": "Sobre Livva",
+    "title": "Seguros más simples, claros y accesibles",
+    "description1": "Livva es una plataforma digital diseñada para simplificar la búsqueda, comparación y gestión de alternativas de seguros vehiculares y de salud.",
+    "description2": "Nuestro objetivo es reducir la complejidad al elegir un seguro y ofrecer una experiencia digital que ayude a los usuarios a tomar decisiones más informadas.",
+    "transparency": "Transparencia",
+    "transparencyDescription": "Información clara para comparar alternativas.",
+    "accessibility": "Accesibilidad",
+    "accessibilityDescription": "Una experiencia digital fácil de entender y utilizar.",
+    "trust": "Confianza",
+    "trustDescription": "Orientación para elegir opciones de acuerdo con las necesidades de cada usuario.",
+    "cardTitle": "Una experiencia centrada en el usuario",
+    "cardDescription": "Livva reúne herramientas para comparar alternativas, organizar información y acompañar a los usuarios durante su proceso de gestión de seguros."
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "¿Tienes alguna pregunta?",
+    "description": "Envíanos un mensaje y cuéntanos cómo podemos ayudarte. Nuestro equipo se pondrá en contacto contigo.",
+    "email": "Correo:",
+    "schedule": "Horario de atención:",
+    "scheduleValue": "Lunes a viernes, de 9:00 a. m. a 6:00 p. m.",
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "nombre@correo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje",
+    "send": "Enviar mensaje"
+  },
+  "footer": {
+    "description": "Una forma más simple de descubrir, comparar y gestionar alternativas de seguros.",
+    "platform": "Plataforma",
+    "legal": "Legal",
+    "terms": "Términos y condiciones",
+    "privacy": "Política de privacidad",
+    "copyright": "© 2026 Livva. Todos los derechos reservados."
+  }
+}
