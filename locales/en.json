@@ -1,0 +1,87 @@
+﻿{
+  "nav": {
+    "home": "Home",
+    "insurance": "Insurance",
+    "plans": "Plans",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Sign In",
+    "start": "Get Started"
+  },
+  "hero": {
+    "title": "Your peace of mind and your family's in one place",
+    "description": "Compare, quote and manage vehicle and health insurance in a simple, transparent and digital way.",
+    "quote": "Get a Quote",
+    "coverage": "View Coverage",
+    "cardTitle": "Smart Protection",
+    "cardDescription": "Vehicle Insurance • Health Insurance"
+  },
+  "services": {
+    "label": "Our solutions",
+    "title": "Find the protection you need",
+    "description": "Compare vehicle and health insurance alternatives clearly and find the option that best fits your needs.",
+    "vehicleTitle": "Vehicle Insurance",
+    "vehicleDescription": "Compare vehicle insurance alternatives to protect your car against accidents, theft and other unexpected events according to your needs and preferences.",
+    "healthTitle": "Health Insurance",
+    "healthDescription": "Explore health insurance alternatives designed to protect your well-being and your family's, comparing options clearly and easily."
+  },
+  "plans": {
+    "label": "Flexible plans",
+    "title": "Choose the plan that fits you best",
+    "description": "Compare benefits and select the option that best fits your insurance management needs.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "basicTitle": "Basic Plan",
+    "basicDescription": "Ideal for users who want to start managing their insurance in a simple way.",
+    "monthPeriod": "/ month",
+    "yearPeriod": "/ year",
+    "basicFeature1": "Insurance option comparison",
+    "basicFeature2": "Basic policy management",
+    "basicFeature3": "Access to centralized information",
+    "basicFeature4": "Digital support",
+    "choose": "Choose Plan",
+    "recommended": "Recommended",
+    "proDescription": "For users looking for a more complete and personalized experience.",
+    "proFeature1": "All Basic Plan benefits",
+    "proFeature2": "Advanced policy tracking",
+    "proFeature3": "Personalized recommendations",
+    "proFeature4": "Priority support"
+  },
+  "about": {
+    "label": "About Livva",
+    "title": "Insurance made simpler, clearer and more accessible",
+    "description1": "Livva is a digital platform designed to simplify the search, comparison and management of vehicle and health insurance alternatives.",
+    "description2": "Our goal is to reduce the complexity of choosing insurance and provide a digital experience that helps users make more informed decisions.",
+    "transparency": "Transparency",
+    "transparencyDescription": "Clear information to compare alternatives.",
+    "accessibility": "Accessibility",
+    "accessibilityDescription": "A digital experience that is easy to understand and use.",
+    "trust": "Trust",
+    "trustDescription": "Guidance to choose options according to each user's needs.",
+    "cardTitle": "A user-centered experience",
+    "cardDescription": "Livva brings together tools to compare alternatives, organize information and support users throughout their insurance management process."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Do you have any questions?",
+    "description": "Send us a message and tell us how we can help. Our team will get in touch with you.",
+    "email": "Email:",
+    "schedule": "Business hours:",
+    "scheduleValue": "Monday to Friday, 9:00 a.m. - 6:00 p.m.",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "name@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Write your message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "description": "A simpler way to discover, compare and manage insurance alternatives.",
+    "platform": "Platform",
+    "legal": "Legal",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2026 Livva. All rights reserved."
+  }
+}
