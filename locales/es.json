@@ -1,4 +1,18 @@
 ﻿{
+  "meta": {
+    "title": "Livva - La plataforma inteligente para tu seguro ideal",
+    "description": "Livva te permite comparar y gestionar alternativas de seguros vehiculares y de salud de forma simple, clara y digital.",
+    "keywords": "seguros, seguro vehicular, seguro de salud, comparación de seguros, Livva"
+  },
+  "a11y": {
+    "skipToContent": "Ir al contenido principal",
+    "home": "Ir al inicio de Livva",
+    "mainNavigation": "Navegación principal",
+    "languageSelector": "Selector de idioma",
+    "changeToEnglish": "Cambiar idioma a inglés",
+    "changeToSpanish": "Cambiar idioma a español",
+    "billingToggle": "Cambiar entre facturación mensual y anual"
+  },
   "nav": {
     "home": "Inicio",
     "insurance": "Seguros",
@@ -74,12 +88,14 @@
     "emailPlaceholder": "nombre@correo.com",
     "message": "Mensaje",
     "messagePlaceholder": "Escribe tu mensaje",
-    "send": "Enviar mensaje"
+    "send": "Enviar mensaje",
+    "formNotice": "Este formulario abre tu aplicación de correo. Livva no almacena esta información en este sitio web."
   },
   "footer": {
     "description": "Una forma más simple de descubrir, comparar y gestionar alternativas de seguros.",
     "platform": "Plataforma",
     "legal": "Legal",
+    "terms": "Términos y condiciones",
     "privacy": "Política de privacidad",
     "copyright": "© 2026 Livva. Todos los derechos reservados."
   }

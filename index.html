@@ -9,21 +9,29 @@
             content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Livva - Smart insurance made simple</title>
+    <title data-i18n="meta.title">Livva - Smart insurance made simple</title>
 
     <meta
             name="description"
             content="Livva helps you compare and manage vehicle and health insurance options in a simple, clear and digital way."
+            data-i18n-content="meta.description"
     >
 
     <meta
             name="keywords"
             content="insurance, vehicle insurance, health insurance, insurance comparison, Livva"
+            data-i18n-content="meta.keywords"
     >
 
     <meta
             name="author"
             content="Livva Care"
+    >
+
+    <link
+            rel="icon"
+            href="favicon.svg"
+            type="image/svg+xml"
     >
 
     <link
@@ -50,6 +58,14 @@
 
 <body>
 
+<a
+        href="#contenido-principal"
+        class="skip-link"
+        data-i18n="a11y.skipToContent"
+>
+    Skip to main content
+</a>
+
 <!-- Header -->
 
 <header class="header">
@@ -60,6 +76,7 @@
                 href="#inicio"
                 class="logo"
                 aria-label="Go to Livva home"
+                data-i18n-aria-label="a11y.home"
         >
             Livva<span>.</span>
         </a>
@@ -67,6 +84,7 @@
         <nav
                 class="nav-menu"
                 aria-label="Main navigation"
+                data-i18n-aria-label="a11y.mainNavigation"
         >
             <ul>
 
@@ -123,8 +141,9 @@
             <!-- Language selector -->
 
             <div
-                    class="language-switcher"
-                    aria-label="Language selector"
+                class="language-switcher"
+                aria-label="Language selector"
+                data-i18n-aria-label="a11y.languageSelector"
             >
 
                 <button
@@ -132,6 +151,8 @@
                         class="lang-btn active"
                         type="button"
                         aria-label="Change language to English"
+                        aria-pressed="true"
+                        data-i18n-aria-label="a11y.changeToEnglish"
                 >
                     EN
                 </button>
@@ -141,6 +162,8 @@
                         class="lang-btn"
                         type="button"
                         aria-label="Cambiar idioma a español"
+                        aria-pressed="false"
+                        data-i18n-aria-label="a11y.changeToSpanish"
                 >
                     ES
                 </button>
@@ -169,7 +192,7 @@
 
 </header>
 
-<main>
+<main id="contenido-principal">
 
     <!-- Hero -->
 
@@ -363,6 +386,7 @@
                         type="button"
                         aria-label="Switch between monthly and yearly billing"
                         aria-pressed="false"
+                        data-i18n-aria-label="a11y.billingToggle"
                 >
                     <span class="toggle-circle"></span>
                 </button>
@@ -438,7 +462,6 @@
                     <a
                             href="#contacto"
                             class="btn btn-outline plan-button"
-                            aria-label="Choose Basic Plan"
                             data-i18n="plans.choose"
                     >
                         Choose Plan
@@ -516,7 +539,6 @@
                     <a
                             href="#contacto"
                             class="btn btn-primary plan-button"
-                            aria-label="Choose Livva Pro"
                             data-i18n="plans.choose"
                     >
                         Choose Plan
@@ -661,7 +683,9 @@
                             Email:
                         </strong>
 
-                        contacto@livva.com
+                        <a href="mailto:contacto@livva.com">
+                            contacto@livva.com
+                        </a>
                     </p>
 
                     <p>
@@ -679,7 +703,19 @@
             </div>
 
 
-            <form class="contact-form">
+            <form
+                    id="contactForm"
+                    class="contact-form"
+                    aria-describedby="contact-form-note"
+            >
+
+                <p
+                        id="contact-form-note"
+                        class="form-note"
+                        data-i18n="contact.formNotice"
+                >
+                    This form opens your email application. Livva does not store this information on this website.
+                </p>
 
                 <div class="form-group">
 
@@ -772,6 +808,7 @@
                     href="#inicio"
                     class="logo footer-logo"
                     aria-label="Go to Livva home"
+                    data-i18n-aria-label="a11y.home"
             >
                 Livva<span>.</span>
             </a>
@@ -828,7 +865,14 @@
             </h3>
 
             <a
-                    href="#"
+                    href="terms.html"
+                    data-i18n="footer.terms"
+            >
+                Terms &amp; Conditions
+            </a>
+
+            <a
+                    href="privacy.html"
                     data-i18n="footer.privacy"
             >
                 Privacy Policy
