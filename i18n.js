@@ -4,6 +4,7 @@
 
     const languageButtons = document.querySelectorAll('.lang-btn');
     const supportedLanguages = ['en', 'es'];
+    const translationsVersion = '1.1.2';
 
     function getSavedLanguage() {
         try {
@@ -26,7 +27,9 @@
 
     async function loadLanguage(language) {
         try {
-            const response = await fetch(`./locales/${language}.json`);
+            const response = await fetch(
+                `./locales/${language}.json?v=${translationsVersion}`
+            );
 
             if (!response.ok) {
                 throw new Error(`Unable to load language: ${language}`);
