@@ -3,6 +3,19 @@
     let translations = {};
 
     const languageButtons = document.querySelectorAll('.lang-btn');
+    const supportedLanguages = ['en', 'es'];
+
+    function getSavedLanguage() {
+        try {
+            const savedLanguage = localStorage.getItem('livva-language');
+
+            return supportedLanguages.includes(savedLanguage)
+                ? savedLanguage
+                : 'en';
+        } catch (error) {
+            return 'en';
+        }
+    }
 
     function getTranslation(key) {
         return key.split('.').reduce(
@@ -21,6 +34,12 @@
 
             translations = await response.json();
             currentLanguage = language;
+
+            try {
+                localStorage.setItem('livva-language', language);
+            } catch (error) {
+                // The translation still works when browser storage is unavailable.
+            }
 
             document.documentElement.lang =
                 language === 'en' ? 'en' : 'es-419';
@@ -107,5 +126,5 @@
         loadLanguage
     };
 
-    loadLanguage('en');
+    loadLanguage(getSavedLanguage());
 });
