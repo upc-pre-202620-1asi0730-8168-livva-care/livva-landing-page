@@ -91,6 +91,44 @@
     "send": "Enviar mensaje",
     "formNotice": "Este formulario abre tu aplicación de correo. Livva no almacena esta información en este sitio web."
   },
+  "legal": {
+    "back": "← Volver a Livva",
+    "lastUpdated": "Última actualización:",
+    "updatedDate": "2 de octubre de 2026"
+  },
+  "terms": {
+    "metaTitle": "Términos y condiciones | Livva",
+    "metaDescription": "Términos y condiciones de Livva para el prototipo educativo actual.",
+    "title": "Términos y condiciones",
+    "section1Title": "1. Prototipo educativo",
+    "section1Body": "Livva es actualmente un prototipo académico creado por Livva Care para el curso Aplicaciones Web de la UPC. El sitio ofrece información general y todavía no constituye un servicio de corretaje, aseguradora o contratación de seguros.",
+    "section2Title": "2. Contenido informativo",
+    "section2Body": "Las descripciones, planes, precios y beneficios mostrados son ilustrativos. No constituyen ofertas, cotizaciones, pólizas ni asesoría financiera, legal o médica profesional.",
+    "section3Title": "3. Ausencia de contrato de seguro",
+    "section3Body": "El uso de este sitio no genera un contrato ni una cobertura de seguro. Cualquier futura solicitud estará sujeta a la evaluación, condiciones y aprobación de la compañía aseguradora correspondiente.",
+    "section4Title": "4. Uso aceptable",
+    "section4Body": "Los usuarios no deben intentar interrumpir el sitio, acceder a recursos restringidos, introducir código malicioso ni utilizar el contenido con fines ilícitos.",
+    "section5Title": "5. Disponibilidad y cambios",
+    "section5Body": "Debido a que este prototipo continúa evolucionando, sus funciones y contenido pueden cambiar o dejar de estar disponibles temporalmente. Livva Care puede actualizar estos términos cuando cambie el proyecto.",
+    "section6Title": "6. Contacto",
+    "section6Body": "Las consultas sobre estos términos pueden enviarse a"
+  },
+  "privacy": {
+    "metaTitle": "Política de privacidad | Livva",
+    "metaDescription": "Política de privacidad de Livva para el prototipo educativo actual.",
+    "title": "Política de privacidad",
+    "section1Title": "1. Alcance actual",
+    "section1Body": "Livva es un prototipo educativo. Esta versión no crea cuentas de usuario, no procesa solicitudes de seguro y no almacena la información del formulario de contacto en un servidor de Livva.",
+    "section2Title": "2. Información de contacto",
+    "section2Body": "Al enviar el formulario se abre la aplicación de correo configurada en el dispositivo del usuario. El usuario decide si envía el mensaje. La información enviada por correo se utiliza únicamente para responder la consulta.",
+    "section3Title": "3. Datos locales y del alojamiento",
+    "section3Body1": "El sitio no utiliza cookies publicitarias ni de analítica. El proveedor de alojamiento puede procesar datos técnicos de las solicitudes, como direcciones IP e información del navegador, de acuerdo con sus propias prácticas de privacidad.",
+    "section3Body2": "El sitio carga la tipografía Poppins desde Google Fonts. Dicho proveedor puede recibir información técnica de la solicitud cuando se carga la fuente.",
+    "section4Title": "4. Funciones futuras",
+    "section4Body": "Antes de incorporar cuentas, solicitudes de seguro u otro tratamiento de datos personales, esta política deberá actualizarse para explicar los datos recopilados, finalidad, plazo de conservación, medidas de seguridad y derechos aplicables.",
+    "section5Title": "5. Contacto",
+    "section5Body": "Las consultas sobre privacidad pueden enviarse a"
+  },
   "footer": {
     "description": "Una forma más simple de descubrir, comparar y gestionar alternativas de seguros.",
     "platform": "Plataforma",

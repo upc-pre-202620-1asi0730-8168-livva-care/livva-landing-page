@@ -613,6 +613,18 @@ textarea:focus-visible {
 
 /* Legal pages */
 
+.legal-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.legal-nav {
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .legal-page {
     min-height: 100vh;
     padding: 70px 0;
@@ -731,6 +743,11 @@ textarea:focus-visible {
     .logo {
         width: 100%;
         text-align: center;
+    }
+
+    .legal-nav .logo {
+        width: auto;
+        text-align: left;
     }
 
     .nav-menu ul {
