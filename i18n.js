@@ -45,10 +45,37 @@
                     }
                 });
 
+            document
+                .querySelectorAll('[data-i18n-content]')
+                .forEach((element) => {
+                    const key = element.dataset.i18nContent;
+                    const translation = getTranslation(key);
+
+                    if (translation !== undefined) {
+                        element.setAttribute('content', translation);
+                    }
+                });
+
+            document
+                .querySelectorAll('[data-i18n-aria-label]')
+                .forEach((element) => {
+                    const key = element.dataset.i18nAriaLabel;
+                    const translation = getTranslation(key);
+
+                    if (translation !== undefined) {
+                        element.setAttribute('aria-label', translation);
+                    }
+                });
+
             languageButtons.forEach((button) => {
                 button.classList.toggle(
                     'active',
                     button.id === `lang-${language}`
+                );
+
+                button.setAttribute(
+                    'aria-pressed',
+                    (button.id === `lang-${language}`).toString()
                 );
             });
 

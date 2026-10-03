@@ -1,4 +1,18 @@
 ﻿{
+  "meta": {
+    "title": "Livva - Smart insurance made simple",
+    "description": "Livva helps you compare and manage vehicle and health insurance options in a simple, clear and digital way.",
+    "keywords": "insurance, vehicle insurance, health insurance, insurance comparison, Livva"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "home": "Go to Livva home",
+    "mainNavigation": "Main navigation",
+    "languageSelector": "Language selector",
+    "changeToEnglish": "Change language to English",
+    "changeToSpanish": "Change language to Spanish",
+    "billingToggle": "Switch between monthly and yearly billing"
+  },
   "nav": {
     "home": "Home",
     "insurance": "Insurance",
@@ -74,12 +88,14 @@
     "emailPlaceholder": "name@email.com",
     "message": "Message",
     "messagePlaceholder": "Write your message",
-    "send": "Send Message"
+    "send": "Send Message",
+    "formNotice": "This form opens your email application. Livva does not store this information on this website."
   },
   "footer": {
     "description": "A simpler way to discover, compare and manage insurance alternatives.",
     "platform": "Platform",
     "legal": "Legal",
+    "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "copyright": "© 2026 Livva. All rights reserved."
   }

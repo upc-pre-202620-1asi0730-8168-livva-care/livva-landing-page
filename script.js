@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const billingToggle = document.getElementById('billingToggle');
     const prices = document.querySelectorAll('.price');
     const periods = document.querySelectorAll('.period');
+    const contactForm = document.getElementById('contactForm');
 
     function updateBillingPeriods() {
         if (!window.i18n) {
@@ -44,5 +45,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('languageChanged', () => {
         updateBillingPeriods();
+    });
+
+    contactForm?.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        if (!contactForm.reportValidity()) {
+            return;
+        }
+
+        const formData = new FormData(contactForm);
+        const subject = encodeURIComponent(
+            `Livva contact - ${formData.get('name')}`
+        );
+        const body = encodeURIComponent(
+            `${formData.get('message')}\n\nEmail: ${formData.get('email')}`
+        );
+
+        window.location.href =
+            `mailto:contacto@livva.com?subject=${subject}&body=${body}`;
     });
 });
