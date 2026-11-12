@@ -65,4 +65,22 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href =
             `mailto:contacto@livva.com?subject=${subject}&body=${body}`;
     });
+
+    // Videos: embeds a YouTube video when its ID is set in data-youtube-id.
+    document.querySelectorAll('.video-frame').forEach((frame) => {
+        const videoId = frame.dataset.youtubeId?.trim();
+
+        if (!videoId) {
+            return;
+        }
+
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}`;
+        iframe.title = window.i18n?.getTranslation(frame.dataset.titleKey) ?? 'Livva video';
+        iframe.loading = 'lazy';
+        iframe.allow = 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+
+        frame.replaceChildren(iframe);
+    });
 });
