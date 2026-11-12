@@ -13,13 +13,13 @@
 
     <meta
             name="description"
-            content="Livva helps you compare and manage vehicle and health insurance options in a simple, clear and digital way."
+            content="Livva helps you compare and manage vehicle and life insurance options in a simple, clear and digital way."
             data-i18n-content="meta.description"
     >
 
     <meta
             name="keywords"
-            content="insurance, vehicle insurance, health insurance, insurance comparison, Livva"
+            content="insurance, vehicle insurance, life insurance, insurance comparison, Livva"
             data-i18n-content="meta.keywords"
     >
 
@@ -52,7 +52,7 @@
 
     <link
             rel="stylesheet"
-            href="styles.css"
+            href="styles.css?v=1.2.0"
     >
 </head>
 
@@ -117,6 +117,14 @@
 
                 <li>
                     <a
+                            href="#videos"
+                            data-i18n="nav.videos"
+                    >
+                        Videos
+                    </a>
+                </li>
+                <li>
+                    <a
                             href="#nosotros"
                             data-i18n="nav.about"
                     >
@@ -171,7 +179,7 @@
             </div>
 
             <a
-                    href="#planes"
+                    href="https://livva-web-application.web.app/login"
                     class="btn btn-outline"
                     data-i18n="nav.login"
             >
@@ -179,7 +187,7 @@
             </a>
 
             <a
-                    href="#planes"
+                    href="https://livva-web-application.web.app/register"
                     class="btn btn-primary"
                     data-i18n="nav.start"
             >
@@ -210,7 +218,7 @@
                 </h1>
 
                 <p data-i18n="hero.description">
-                    Compare, quote and manage vehicle and health insurance
+                    Compare, quote and manage vehicle and life insurance
                     in a simple, transparent and digital way.
                 </p>
 
@@ -245,7 +253,7 @@
                     </h2>
 
                     <p data-i18n="hero.cardDescription">
-                        Vehicle Insurance • Health Insurance
+                        Vehicle Insurance • Life Insurance
                     </p>
 
                 </div>
@@ -280,7 +288,7 @@
                 </h2>
 
                 <p data-i18n="services.description">
-                    Compare vehicle and health insurance alternatives
+                    Compare vehicle and life insurance alternatives
                     clearly and find the option that best fits your needs.
                 </p>
 
@@ -312,7 +320,7 @@
                 </article>
 
 
-                <!-- Health Insurance -->
+                <!-- Life Insurance -->
 
                 <article class="service-card">
 
@@ -320,17 +328,17 @@
                             class="service-icon"
                             aria-hidden="true"
                     >
-                        ❤️
+                        🛡️
                     </div>
 
-                    <h3 data-i18n="services.healthTitle">
-                        Health Insurance
+                    <h3 data-i18n="services.lifeTitle">
+                        Life Insurance
                     </h3>
 
-                    <p data-i18n="services.healthDescription">
-                        Explore health insurance alternatives designed
-                        to protect your well-being and your family's,
-                        comparing options clearly and easily.
+                    <p data-i18n="services.lifeDescription">
+                        Explore life insurance alternatives designed
+                        to protect your family's future, register your
+                        beneficiaries and compare options clearly and easily.
                     </p>
 
                 </article>
@@ -460,7 +468,7 @@
                     </ul>
 
                     <a
-                            href="#contacto"
+                            href="https://livva-web-application.web.app/register"
                             class="btn btn-outline plan-button"
                             data-i18n="plans.choose"
                     >
@@ -537,12 +545,104 @@
                     </ul>
 
                     <a
-                            href="#contacto"
+                            href="https://livva-web-application.web.app/register"
                             class="btn btn-primary plan-button"
                             data-i18n="plans.choose"
                     >
                         Choose Plan
                     </a>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Videos -->
+
+    <section
+            id="videos"
+            class="videos"
+    >
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span
+                        class="section-label"
+                        data-i18n="videos.label"
+                >
+                    Get to know us
+                </span>
+
+                <h2 data-i18n="videos.title">
+                    Discover Livva and the team behind it
+                </h2>
+
+                <p data-i18n="videos.description">
+                    Watch how Livva helps you manage your vehicle and
+                    life insurance, and meet the team that builds it.
+                </p>
+
+            </div>
+
+            <div class="videos-grid">
+
+                <!-- To publish a video, write its YouTube ID in data-youtube-id. -->
+
+                <article class="video-card">
+
+                    <div
+                            class="video-frame"
+                            data-youtube-id=""
+                            data-title-key="videos.productTitle"
+                    >
+                        <span
+                                class="video-placeholder"
+                                data-i18n="videos.comingSoon"
+                        >
+                            Video coming soon
+                        </span>
+                    </div>
+
+                    <h3 data-i18n="videos.productTitle">
+                        About the Product
+                    </h3>
+
+                    <p data-i18n="videos.productDescription">
+                        A short tour of the main features of Livva and
+                        the opinions of our users.
+                    </p>
+
+                </article>
+
+                <article class="video-card">
+
+                    <div
+                            class="video-frame"
+                            data-youtube-id=""
+                            data-title-key="videos.teamTitle"
+                    >
+                        <span
+                                class="video-placeholder"
+                                data-i18n="videos.comingSoon"
+                        >
+                            Video coming soon
+                        </span>
+                    </div>
+
+                    <h3 data-i18n="videos.teamTitle">
+                        About the Team
+                    </h3>
+
+                    <p data-i18n="videos.teamDescription">
+                        Meet the Livva Care team, how we work and what
+                        we learned while building the platform.
+                    </p>
 
                 </article>
 
@@ -578,7 +678,7 @@
                 <p data-i18n="about.description1">
                     Livva is a digital platform designed to simplify
                     the search, comparison and management of vehicle
-                    and health insurance alternatives.
+                    and life insurance alternatives.
                 </p>
 
                 <p data-i18n="about.description2">
@@ -897,8 +997,8 @@
 
 </footer>
 
-<script src="i18n.js?v=1.1.2"></script>
-<script src="script.js"></script>
+<script src="i18n.js?v=1.2.0"></script>
+<script src="script.js?v=1.2.0"></script>
 
 </body>
 

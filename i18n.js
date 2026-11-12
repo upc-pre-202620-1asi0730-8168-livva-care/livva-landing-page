@@ -4,7 +4,7 @@
 
     const languageButtons = document.querySelectorAll('.lang-btn');
     const supportedLanguages = ['en', 'es'];
-    const translationsVersion = '1.1.2';
+    const translationsVersion = '1.2.0';
 
     function getSavedLanguage() {
         try {

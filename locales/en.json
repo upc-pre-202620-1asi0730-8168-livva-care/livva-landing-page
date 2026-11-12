@@ -1,8 +1,8 @@
 ﻿{
   "meta": {
     "title": "Livva - Smart insurance made simple",
-    "description": "Livva helps you compare and manage vehicle and health insurance options in a simple, clear and digital way.",
-    "keywords": "insurance, vehicle insurance, health insurance, insurance comparison, Livva"
+    "description": "Livva helps you compare and manage vehicle and life insurance options in a simple, clear and digital way.",
+    "keywords": "insurance, vehicle insurance, life insurance, insurance comparison, Livva"
   },
   "a11y": {
     "skipToContent": "Skip to main content",
@@ -20,24 +20,25 @@
     "about": "About",
     "contact": "Contact",
     "login": "Sign In",
-    "start": "Get Started"
+    "start": "Get Started",
+    "videos": "Videos"
   },
   "hero": {
     "title": "Your peace of mind and your family's in one place",
-    "description": "Compare, quote and manage vehicle and health insurance in a simple, transparent and digital way.",
+    "description": "Compare, quote and manage vehicle and life insurance in a simple, transparent and digital way.",
     "quote": "Get a Quote",
     "coverage": "View Coverage",
     "cardTitle": "Smart Protection",
-    "cardDescription": "Vehicle Insurance • Health Insurance"
+    "cardDescription": "Vehicle Insurance • Life Insurance"
   },
   "services": {
     "label": "Our solutions",
     "title": "Find the protection you need",
-    "description": "Compare vehicle and health insurance alternatives clearly and find the option that best fits your needs.",
+    "description": "Compare vehicle and life insurance alternatives clearly and find the option that best fits your needs.",
     "vehicleTitle": "Vehicle Insurance",
     "vehicleDescription": "Compare vehicle insurance alternatives to protect your car against accidents, theft and other unexpected events according to your needs and preferences.",
-    "healthTitle": "Health Insurance",
-    "healthDescription": "Explore health insurance alternatives designed to protect your well-being and your family's, comparing options clearly and easily."
+    "lifeTitle": "Life Insurance",
+    "lifeDescription": "Explore life insurance alternatives designed to protect your family's future, register your beneficiaries and compare options clearly and easily."
   },
   "plans": {
     "label": "Flexible plans",
@@ -61,10 +62,20 @@
     "proFeature3": "Personalized recommendations",
     "proFeature4": "Priority support"
   },
+  "videos": {
+    "label": "Get to know us",
+    "title": "Discover Livva and the team behind it",
+    "description": "Watch how Livva helps you manage your vehicle and life insurance, and meet the team that builds it.",
+    "productTitle": "About the Product",
+    "productDescription": "A short tour of the main features of Livva and the opinions of our users.",
+    "teamTitle": "About the Team",
+    "teamDescription": "Meet the Livva Care team, how we work and what we learned while building the platform.",
+    "comingSoon": "Video coming soon"
+  },
   "about": {
     "label": "About Livva",
     "title": "Insurance made simpler, clearer and more accessible",
-    "description1": "Livva is a digital platform designed to simplify the search, comparison and management of vehicle and health insurance alternatives.",
+    "description1": "Livva is a digital platform designed to simplify the search, comparison and management of vehicle and life insurance alternatives.",
     "description2": "Our goal is to reduce the complexity of choosing insurance and provide a digital experience that helps users make more informed decisions.",
     "transparency": "Transparency",
     "transparencyDescription": "Clear information to compare alternatives.",
