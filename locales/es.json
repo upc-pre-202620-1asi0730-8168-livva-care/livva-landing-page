@@ -1,8 +1,8 @@
 ﻿{
   "meta": {
     "title": "Livva - La plataforma inteligente para tu seguro ideal",
-    "description": "Livva te permite comparar y gestionar alternativas de seguros vehiculares y de salud de forma simple, clara y digital.",
-    "keywords": "seguros, seguro vehicular, seguro de salud, comparación de seguros, Livva"
+    "description": "Livva te permite comparar y gestionar alternativas de seguros vehiculares y de vida de forma simple, clara y digital.",
+    "keywords": "seguros, seguro vehicular, seguro de vida, comparación de seguros, Livva"
   },
   "a11y": {
     "skipToContent": "Ir al contenido principal",
@@ -20,24 +20,25 @@
     "about": "Nosotros",
     "contact": "Contacto",
     "login": "Iniciar sesión",
-    "start": "Empezar"
+    "start": "Empezar",
+    "videos": "Videos"
   },
   "hero": {
     "title": "Tu tranquilidad y la de tu familia en un solo lugar",
-    "description": "Compara, cotiza y gestiona seguros vehiculares y de salud de forma simple, transparente y digital.",
+    "description": "Compara, cotiza y gestiona seguros vehiculares y de vida de forma simple, transparente y digital.",
     "quote": "Cotizar seguro",
     "coverage": "Ver coberturas",
     "cardTitle": "Protección inteligente",
-    "cardDescription": "Seguro vehicular • Seguro de salud"
+    "cardDescription": "Seguro vehicular • Seguro de vida"
   },
   "services": {
     "label": "Nuestras soluciones",
     "title": "Encuentra la protección que necesitas",
-    "description": "Compara alternativas de seguros vehiculares y de salud de manera clara y encuentra la opción que mejor se adapte a tus necesidades.",
+    "description": "Compara alternativas de seguros vehiculares y de vida de manera clara y encuentra la opción que mejor se adapte a tus necesidades.",
     "vehicleTitle": "Seguro vehicular",
     "vehicleDescription": "Compara alternativas de seguros vehiculares para proteger tu auto frente a accidentes, robos y otros imprevistos de acuerdo con tus necesidades y preferencias.",
-    "healthTitle": "Seguro de salud",
-    "healthDescription": "Explora alternativas de seguros de salud diseñadas para proteger tu bienestar y el de tu familia, comparando opciones de manera clara y sencilla."
+    "lifeTitle": "Seguro de vida",
+    "lifeDescription": "Explora alternativas de seguros de vida diseñadas para proteger el futuro de tu familia, registrar a tus beneficiarios y comparar opciones de manera clara y sencilla."
   },
   "plans": {
     "label": "Planes flexibles",
@@ -61,10 +62,20 @@
     "proFeature3": "Recomendaciones personalizadas",
     "proFeature4": "Soporte prioritario"
   },
+  "videos": {
+    "label": "Conócenos",
+    "title": "Descubre Livva y al equipo detrás",
+    "description": "Mira cómo Livva te ayuda a gestionar tus seguros vehiculares y de vida, y conoce al equipo que la construye.",
+    "productTitle": "Acerca del producto",
+    "productDescription": "Un recorrido breve por las principales funcionalidades de Livva y las opiniones de nuestros usuarios.",
+    "teamTitle": "Acerca del equipo",
+    "teamDescription": "Conoce al equipo de Livva Care, cómo trabajamos y lo que aprendimos al construir la plataforma.",
+    "comingSoon": "Video disponible próximamente"
+  },
   "about": {
     "label": "Sobre Livva",
     "title": "Seguros más simples, claros y accesibles",
-    "description1": "Livva es una plataforma digital diseñada para simplificar la búsqueda, comparación y gestión de alternativas de seguros vehiculares y de salud.",
+    "description1": "Livva es una plataforma digital diseñada para simplificar la búsqueda, comparación y gestión de alternativas de seguros vehiculares y de vida.",
     "description2": "Nuestro objetivo es reducir la complejidad al elegir un seguro y ofrecer una experiencia digital que ayude a los usuarios a tomar decisiones más informadas.",
     "transparency": "Transparencia",
     "transparencyDescription": "Información clara para comparar alternativas.",
